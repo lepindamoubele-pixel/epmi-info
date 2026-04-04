@@ -1,0 +1,524 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f6f9;
+}
+
+/* TITLE */
+.titre {
+  text-align: center;
+  margin: 40px 0 20px;
+}
+
+.titre h1 {
+  font-size: 2.5rem;
+  color: #111;
+}
+
+/* ROWS */
+.cards-row {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 40px auto;
+  width: 90%;
+  max-width: 1200px;
+  flex-wrap: wrap;
+}
+
+/* CARD WRAPPER */
+.card-wrapper {
+  width: 480px;
+}
+
+/* TITLES */
+.text, .text2, .text4 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.text h2,
+.text2 h3,
+.text4 h4 {
+  font-size: 1.5rem;
+  color: #111;
+}
+
+/* CARD BASE */
+.club-card,
+.club-card2 {
+  position: relative;
+  width: 100%;
+  height: 280px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* HOVER EFFECT */
+.club-card:hover,
+.club-card2:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+
+/* IMAGE */
+.club-card img,
+.club-card2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: filter 0.4s ease;
+}
+
+/* DARK EFFECT ON HOVER */
+.club-card:hover img,
+.club-card2:hover img {
+  filter: brightness(50%);
+}
+
+/* OVERLAY CONTENT */
+.club-content,
+.club-content2 {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: rgba(0,0,0,0.6);
+  color: white;
+  text-align: center;
+
+  padding: 20px;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+/* SHOW CONTENT */
+.club-card:hover .club-content,
+.club-card2:hover .club-content2 {
+  opacity: 1;
+}
+
+/* TEXT */
+.club-content p,
+.club-content2 p {
+  margin-bottom: 15px;
+  font-size: 0.95rem;
+}
+
+/* BUTTON */
+.club-content a,
+.club-content2 a {
+  padding: 8px 18px;
+  background: #3f5bd9;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.club-content a:hover,
+.club-content2 a:hover {
+  background: #2f47b8;
+}
+
+/* FOOTER */
+.site-footer {
+  background: #0f1724;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.footer-links {
+  margin-top: 10px;
+}
+
+.footer-links a {
+  color: #ddd;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: white;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .card-wrapper {
+    width: 100%;
+  }
+
+  .cards-row {
+    gap: 25px;
+  }
+}
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f6f9;
+}
+
+/* ========================= */
+/* 🔹 TOPBAR (COMMON) */
+/* ========================= */
+
+.topbar {
+  width: 100%;
+  height: 80px;
+  background: #0b1625;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  position: relative;
+  z-index: 1000;
+}
+
+/* LOGO */
+.logo {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+/* NAVBAR */
+.navbar {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #6aa6ff;
+}
+
+/* ========================= */
+/* 🔻 DROPDOWN MENU */
+/* ========================= */
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 120%;
+  left: 0;
+  background: #1e293b;
+  border-radius: 8px;
+  list-style: none;
+  min-width: 180px;
+  overflow: hidden;
+  z-index: 2000;
+}
+
+.dropdown-menu li {
+  padding: 10px 15px;
+}
+
+.dropdown-menu a {
+  color: white;
+  display: block;
+}
+
+.dropdown-menu li:hover {
+  background: #2f3f5a;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* ========================= */
+/* 🔍 SEARCH BAR (ASSO PAGE ONLY) */
+/* ========================= */
+
+.topbar-search {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.topbar-search input {
+  width: 60%;
+  max-width: 600px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+
+/* ========================= */
+/* 🖼 HERO (HOME PAGE) */
+/* ========================= */
+
+.hero {
+  width: 100%;
+  height: 50vh;
+
+  background-image: url("K.jpg"); /* adapte ton chemin */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  position: relative;
+}
+
+/* DARK OVERLAY */
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+}
+
+/* CONTENT */
+.hero-overlay {
+  position: relative;
+  z-index: 2;
+
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.hero-title {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+  color: #ddd;
+}
+
+.hero-btn {
+  padding: 12px 30px;
+  background: #3f5bd9;
+  color: white;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.hero-btn:hover {
+  background: #2f47b8;
+}
+
+/* ========================= */
+/* 🎞 SLIDER (HOME PAGE) */
+/* ========================= */
+
+.campus-slider-section {
+  width: 100%;
+  padding: 50px 20px;
+  background: white;
+  text-align: center;
+}
+
+.campus-slider-title {
+  font-size: 2rem;
+  margin-bottom: 25px;
+}
+
+.campus-slider {
+  width: 80%;
+  max-width: 900px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  border-radius: 15px;
+}
+
+.campus-slider-section {
+  width: 100%;
+  padding: 60px 20px;
+  background: #ffffff;
+  text-align: center;
+}
+
+.campus-slider-title {
+  color: #1e293b;
+  font-size: 2rem;
+  margin-bottom: 25px;
+}
+
+.campus-slider {
+  width: 80%;
+  max-width: 900px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  border-radius: 15px;
+  background: white;
+}
+
+/* hide radio buttons */
+.campus-slider input {
+  display: none;
+}
+
+/* track */
+.slides {
+  display: flex;
+  width: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+/* each slide = exactly one full slider width */
+.slide {
+  flex: 0 0 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+}
+
+/* image */
+.slide img {
+  width: 100%;
+  height: 320px;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+  background: white;
+}
+
+/* movement */
+#slide1:checked ~ .slides {
+  transform: translateX(0%);
+}
+
+#slide2:checked ~ .slides {
+  transform: translateX(-100%);
+}
+
+#slide3:checked ~ .slides {
+  transform: translateX(-200%);
+}
+
+/* arrows */
+.arrows {
+  display: none;
+  position: absolute;
+  top: 45%;
+  left: 0;
+  width: 100%;
+  transform: translateY(-50%);
+  justify-content: space-between;
+  padding: 0 15px;
+  pointer-events: none;
+}
+
+.arrow {
+  pointer-events: auto;
+  cursor: pointer;
+  font-size: 2rem;
+  color: white;
+  background: rgba(0, 0, 0, 0.4);
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#slide1:checked ~ .arrow-slide1 {
+  display: flex;
+}
+
+#slide2:checked ~ .arrow-slide2 {
+  display: flex;
+}
+
+#slide3:checked ~ .arrow-slide3 {
+  display: flex;
+}
+
+/* dots */
+.slider-nav {
+  margin-top: 18px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.slider-nav label {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #bbb;
+  cursor: pointer;
+}
+
+.slider-nav label:hover {
+  background: #3f5bd9;
+}
+/* ========================= */
+/* 🔻 FOOTER (COMMON) */
+/* ========================= */
+
+.site-footer {
+  background: #0b1625;
+  color: white;
+  text-align: center;
+  padding: 25px 10px;
+}
+
+.footer-links {
+  margin-top: 10px;
+}
+
+.footer-links a {
+  color: #ccc;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: white;
+}

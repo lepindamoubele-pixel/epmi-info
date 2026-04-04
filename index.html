@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Accueil – ECAM-EPMI</title>
+  <link rel="stylesheet" href="css/css.css" />
+</head>
+
+<body class="home-page">
+
+  <header class="topbar">
+    <a href="#" class="logo">ECAM-EPMI</a>
+
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li><a href="#">Accueil</a></li>
+        <li><a href="html/assopage.html">Associations</a></li>
+
+        <li class="dropdown">
+          <a href="#">Rubriques ▾</a>
+          <ul class="dropdown-menu">
+            <li><a href="html/events.html">Événements</a></li>
+            <li><a href="html/bde.html">BDE</a></li>
+            <li><a href="html/contact.html">Contact</a></li>
+          </ul>
+        </li>
+
+        <li><a href="html/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-overlay">
+      <h1 class="hero-title">Bienvenue à l’IPSL</h1>
+      <p class="hero-subtitle">Découvrez toutes les associations étudiantes</p>
+      <a href="html/assopage.html" class="hero-btn">Voir les associations</a>
+    </div>
+  </section>
+
+  <section class="campus-slider-section">
+    <h2 class="campus-slider-title">Les univers de notre campus</h2>
+
+    <div class="campus-slider">
+
+      <input type="radio" name="slider" id="slide1" checked>
+      <input type="radio" name="slider" id="slide2">
+      <input type="radio" name="slider" id="slide3">
+
+      <div class="slides">
+        <div class="slide">
+          <img src="images/image1.jpg" alt="Campus 1">
+        </div>
+
+        <div class="slide">
+          <img src="images/image2.jpg" alt="Campus 2">
+        </div>
+
+        <div class="slide">
+          <img src="images/image3.jpg" alt="Campus 3">
+        </div>
+      </div>
+
+      <div class="arrows arrow-slide1">
+        <label for="slide3" class="arrow left">&#10094;</label>
+        <label for="slide2" class="arrow right">&#10095;</label>
+      </div>
+
+      <div class="arrows arrow-slide2">
+        <label for="slide1" class="arrow left">&#10094;</label>
+        <label for="slide3" class="arrow right">&#10095;</label>
+      </div>
+
+      <div class="arrows arrow-slide3">
+        <label for="slide2" class="arrow left">&#10094;</label>
+        <label for="slide1" class="arrow right">&#10095;</label>
+      </div>
+
+      <div class="slider-nav">
+        <label for="slide1"></label>
+        <label for="slide2"></label>
+        <label for="slide3"></label>
+      </div>
+
+    </div>
+  </section>
+  <footer class="site-footer">
+  <p>© 2026 ECAM-EPMI - Projet web étudiant</p>
+  <div class="footer-links">
+    <a href="#">Accueil</a>
+    <a href="html/assopage.html">Associations</a>
+    <a href="html/events.html">Événements</a>
+    <a href="html/contact.html">Contact</a>
+  </div>
+</footer>
+
+
+</body>
+</html>
