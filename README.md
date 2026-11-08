@@ -1,4 +1,4 @@
-# 🎓 ECAM-EPMI Digital Showcase (epmi-info)
+# 🎓 ECAM-EPMI
 
 ## 📖 À propos
 
