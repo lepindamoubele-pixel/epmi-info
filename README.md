@@ -1,13 +1,5 @@
 # 🎓 ECAM-EPMI Digital Showcase (epmi-info)
 
-![ECAM-EPMI](https://shields.io🎓-blue?style=for-the-badge&labelColor=1572B6)
-
-[À Propos](#-à-propos) • [Fonctionnalités](#-fonctionnalités) • [Architecture](#-architecture-du-projet) • [Techno](#-aperçu-technique) • [Installation](#-installation-locale)
-
-![Version](https://shields.io) ![HTML5](https://shields.io) ![CSS3](https://shields.io) ![UI/UX](https://shields.io)
-
----
-
 ## 📖 À propos
 
 **epmi-info** est une passerelle numérique interactive conçue pour explorer et cartographier l'écosystème pédagogique de l'école d'ingénieurs **ECAM-EPMI**. 
