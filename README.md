@@ -1,54 +1,52 @@
-# 🎓 ECAM-EPMI
+# 🎓 Bienvenue sur epmi-info !
 
-## 📖 À propos
+Un projet né au cœur de l'école d'ingénieurs **ECAM-EPMI** pour mettre en lumière nos disciplines, nos activités et notre quotidien. 
 
-**epmi-info** est une passerelle numérique interactive conçue pour explorer et cartographier l'écosystème pédagogique de l'école d'ingénieurs **ECAM-EPMI**. 
+[L'Histoire du Projet](#-lhistoire-du-projet) • [Ce que fait le site](#-ce-que-fait-le-site) • [L'organisation du code](#-lorganisation-du-code) • [Comment le tester chez vous](#-comment-le-tester-chez-vous)
 
-Ce site web vitrine met en lumière de manière moderne et structurée les différentes **disciplines académiques**, les **activités étudiantes** et les **parcours d'innovation** proposés au sein de l'établissement. Développé en Front-End pur (*Vanilla Web*), ce projet met l'accent sur la clarté de l'information et une expérience utilisateur fluide.
+---
 
-## ✨ Fonctionnalités
+## 📖 L'histoire du projet
 
-- 🧭 **Navigation Intuitive :** Menu sémantique permettant de basculer facilement entre la présentation générale et le détail des disciplines.
-- 📐 **Architecture Propre :** Séparation stricte des responsabilités (Fichiers HTML pour la structure, feuilles CSS pour le design, assets groupés).
-- 📱 **Responsive Design :** Interface pensée pour offrir une lecture confortable aussi bien sur ordinateur que sur smartphone.
-- 🎨 **Esthétique Soignée :** Charte graphique adaptée à l'identité visuelle et au dynamisme de l'univers étudiant de l'école.
+Ce dépôt n'est pas juste un tas de fichiers HTML et CSS. C'est un espace que j'ai imaginé et codé pour **raconter notre école**. L'objectif était de créer une vitrine numérique claire, agréable et interactive pour permettre à chacun (futurs étudiants, curieux ou profs) de découvrir l'écosystème pédagogique de l'ECAM-EPMI, ses matières majeures et ses projets innovants.
 
-## 🗂️ Architecture du Projet
+## ✨ Ce que fait le site (et comment il a été pensé)
 
-Le dépôt est organisé de façon modulaire pour faciliter sa maintenance et ses futures évolutions :
+J'ai voulu concevoir une expérience fluide et simple, directement depuis le navigateur :
+- 🧭 **Une navigation naturelle :** On passe de la présentation générale aux détails des disciplines sans se perdre.
+- 📱 **Pensez mobile :** Le site s'adapte aux smartphones pour être lu confortablement dans les transports ou entre deux cours.
+- 🎨 **Fait maison (Vanilla) :** Pas de gros frameworks lourds ici. Tout est codé proprement en HTML5 sémantique et en CSS3 (merci Flexbox et Grid) pour que les pages chargent instantanément.
+
+## 🗂️ Un coup d'œil sous le capot (L'organisation du code)
+
+Pour m'y retrouver et bosser proprement, j'ai séparé le projet par dossiers :
 
 ```text
 epmi-info/
 ├── css/
-│   └── style.css          # Centralisation des styles graphiques et du layout
+│   └── style.css          # Là où réside toute la magie visuelle (couleurs, mise en page)
 ├── html/
-│   └── disciplines.html   # Pages secondaires (ou dossiers de contenu)
+│   └── disciplines.html   # Les pages qui plongent dans le détail de nos parcours
 ├── images/
-│   └── [...]              # Galerie d'illustrations, logos et photos du campus
-├── index.html             # Point d'entrée principal du site (Page d'accueil)
-└── README.md              # Documentation du projet
+│   └── [...]              # Nos photos, logos et illustrations pour donner de la vie au site
+├── index.html             # La porte d'entrée principale (notre page d'accueil)
+└── README.md              # Le guide que vous êtes en train de lire !
 ```
 
-## 🛠️ Aperçu Technique
+## 🚀 Comment le tester sur votre ordinateur ?
 
-- **Sémantique HTML5 :** Utilisation des balises modernes (`<header>`, `<nav>`, `<section>`, `<footer>`) pour un meilleur référencement et une accessibilité optimisée.
-- **Flexbox & Grid CSS :** Alignements et grilles modernes pour garantir la fluidité de la mise en page sans framework lourd.
-- **Zéro dépendance :** Chargement instantané des pages grâce à l'absence de scripts ou de bibliothèques tierces superflues.
+Pas besoin d'installer de logiciels complexes ou de serveurs, c'est l'avantage du Front-End pur !
 
-## 🚀 Installation Locale
-
-Pour explorer ou modifier le projet sur votre machine, aucune configuration complexe n'est requise :
-
-1. **Cloner le dépôt :**
+1. **Récupérez le projet :**
    ```bash
    git clone https://github.com
    ```
-2. **Accéder au dossier :**
+2. **Ouvrez le dossier :**
    ```bash
    cd epmi-info
    ```
-3. **Lancer le site :**
-   Double-cliquez simplement sur le fichier `index.html` pour l'ouvrir dans votre navigateur favori.
+3. **Lancez-le :**
+   Faites simplement un double-clic sur le fichier `index.html` pour voir le site s'ouvrir dans votre navigateur Internet.
 
 ---
-Fait avec passion pour valoriser l'ingénierie et l'innovation à l'ECAM-EPMI.
+💡 *Ce projet évolue au fil de mes apprentissages. Si vous avez des suggestions ou des questions, n'hésitez pas à ouvrir une issue ou à me contacter !*
