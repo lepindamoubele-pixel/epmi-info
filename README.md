@@ -1,6 +1,10 @@
 # 🎓 ECAM-EPMI Digital Showcase (epmi-info)
 
 <p align="center">
+  <img src="https://shields.io🎓-blue?style=for-the-badge&labelColor=1572B6" alt="ECAM-EPMI Logo Alternative" height="40"/>
+</p>
+
+<p align="center">
   <a href="#-à-propos">À Propos</a> •
   <a href="#-fonctionnalités">Fonctionnalités</a> •
   <a href="#-architecture-du-projet">Architecture</a> •
@@ -39,7 +43,7 @@ epmi-info/
 ├── css/
 │   └── style.css          # Centralisation des styles graphiques et du layout
 ├── html/
-│   └── disciplines.html   # Pages secondaires dédiées aux parcours d'études
+│   └── disciplines.html   # Pages secondaires (ou dossiers de contenu)
 ├── images/
 │   └── [...]              # Galerie d'illustrations, logos et photos du campus
 ├── index.html             # Point d'entrée principal du site (Page d'accueil)
@@ -65,7 +69,7 @@ Pour explorer ou modifier le projet sur votre machine, aucune configuration comp
    cd epmi-info
    ```
 3. **Lancer le site :**
-   Double-cliquez simplement sur le fichier `index.html` pour l'ouvrir dans votre navigateur favori, ou utilisez l'extension *Live Server* sur VS Code pour un rechargement automatique en temps réel.
+   Double-cliquez simplement sur le fichier `index.html` pour l'ouvrir dans votre navigateur favori.
 
 ---
 <p align="center">Fait avec 💻 pour valoriser l'ingénierie et l'innovation à l'ECAM-EPMI.</p>
