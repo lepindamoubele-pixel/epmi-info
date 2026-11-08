@@ -39,7 +39,7 @@ Pas besoin d'installer de logiciels complexes ou de serveurs, c'est l'avantage d
 
 1. **Récupérez le projet :**
    ```bash
-   git clone https://github.com
+   git clone https://github.com/lepindamoubele-pixel/epmi-info.git
    ```
 2. **Ouvrez le dossier :**
    ```bash
