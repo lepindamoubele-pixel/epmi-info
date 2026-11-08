@@ -51,4 +51,4 @@ Pour explorer ou modifier le projet sur votre machine, aucune configuration comp
    Double-cliquez simplement sur le fichier `index.html` pour l'ouvrir dans votre navigateur favori.
 
 ---
-Encodé avec passion pour valoriser l'ingénierie et l'innovation à l'ECAM-EPMI.
+Fait avec passion pour valoriser l'ingénierie et l'innovation à l'ECAM-EPMI.
