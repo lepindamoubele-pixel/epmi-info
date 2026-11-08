@@ -1,23 +1,10 @@
 # 🎓 ECAM-EPMI Digital Showcase (epmi-info)
 
-<p align="center">
-  <img src="https://shields.io🎓-blue?style=for-the-badge&labelColor=1572B6" alt="ECAM-EPMI Logo Alternative" height="40"/>
-</p>
+![ECAM-EPMI](https://shields.io🎓-blue?style=for-the-badge&labelColor=1572B6)
 
-<p align="center">
-  <a href="#-à-propos">À Propos</a> •
-  <a href="#-fonctionnalités">Fonctionnalités</a> •
-  <a href="#-architecture-du-projet">Architecture</a> •
-  <a href="#-aperçu-technique">Techno</a> •
-  <a href="#-installation-locale">Installation</a>
-</p>
+[À Propos](#-à-propos) • [Fonctionnalités](#-fonctionnalités) • [Architecture](#-architecture-du-projet) • [Techno](#-aperçu-technique) • [Installation](#-installation-locale)
 
-<p align="center">
-  <img src="https://shields.io" alt="Version"/>
-  <img src="https://shields.io" alt="HTML5"/>
-  <img src="https://shields.io" alt="CSS3"/>
-  <img src="https://shields.io" alt="UI/UX"/>
-</p>
+![Version](https://shields.io) ![HTML5](https://shields.io) ![CSS3](https://shields.io) ![UI/UX](https://shields.io)
 
 ---
 
@@ -72,4 +59,4 @@ Pour explorer ou modifier le projet sur votre machine, aucune configuration comp
    Double-cliquez simplement sur le fichier `index.html` pour l'ouvrir dans votre navigateur favori.
 
 ---
-<p align="center">Fait avec 💻 pour valoriser l'ingénierie et l'innovation à l'ECAM-EPMI.</p>
+Encodé avec passion pour valoriser l'ingénierie et l'innovation à l'ECAM-EPMI.
