@@ -1,10 +1,6 @@
 # 🎓 ECAM-EPMI Digital Showcase (epmi-info)
 
 <p align="center">
-  <img src="images/logo.png" alt="ECAM-EPMI" width="200" style="border-radius: 8px;"/>
-</p>
-
-<p align="center">
   <a href="#-à-propos">À Propos</a> •
   <a href="#-fonctionnalités">Fonctionnalités</a> •
   <a href="#-architecture-du-projet">Architecture</a> •
